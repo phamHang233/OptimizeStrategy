@@ -1,0 +1,6 @@
+
+upython:S5717"]Change this default value to "None" and initialize this parameter inside the function/method.(ÏÊÈ¿
+Hpython:S5806/"+Rename this variable; it shadows a builtin.(Ö¾ä•þÿÿÿÿ
+Cpython:S5806:"+Rename this variable; it shadows a builtin.(¥’·‹
+Upython:S112@">Replace this generic exception class with a more specific one.(©ÿ¢ü
+Upython:S112^">Replace this generic exception class with a more specific one.(±×œ´

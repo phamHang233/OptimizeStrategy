@@ -1,0 +1,18 @@
+
+_python:S1192h"GDefine a constant instead of duplicating this literal "$query" 4 times.(Éš
+gpython:S1192É"IDefine a constant instead of duplicating this literal "$explain" 3 times.(¯Ã®¤ùÿÿÿÿ
+mpython:S1192j"PDefine a constant instead of duplicating this literal "$readPreference" 5 times.(ÃŸÌÁûÿÿÿÿ
+rpython:S3776³"TRefactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.(ê¶¡»øÿÿÿÿ
+jpython:S107"MMethod "__init__" has 16 parameters, which is greater than the 13 authorized.( Ğàşüÿÿÿÿ
+python:S1871å"cEither merge this branch with the identical one on line "482" or change one of the implementations.(ç»®ªûÿÿÿÿ
+Fpython:S1172†".Remove the unused function parameter "dummy0".(µú8
+|python:S1871¢"cEither merge this branch with the identical one on line "544" or change one of the implementations.(³î
+|python:S1871®"cEither merge this branch with the identical one on line "556" or change one of the implementations.(³î
+Bpython:S1940Ì")Use the opposite operator ("!=") instead.( È×
+Lpython:S1172Î".Remove the unused function parameter "client".(‹­±Úûÿÿÿÿ
+Qpython:S1172ô	"3Remove the unused function parameter "user_fields".(˜¬¥úıÿÿÿÿ
+Špython:S1845Š"qRename method "more_to_come" to prevent any misunderstanding/clash with field "MORE_TO_COME" defined on line 1374(ÖËå“
+Jpython:S1172å
+"1Remove the unused function parameter "cursor_id".(¦•Ù
+Jpython:S1172ñ
+"1Remove the unused function parameter "cursor_id".(œ•Â‡
