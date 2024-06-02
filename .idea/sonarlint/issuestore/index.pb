@@ -69,3 +69,5 @@ Q
 !src/services/fee_from_strategy.py,4/8/483c2ccaf8e04612d4d0798af2ad61df963443df
 W
 'src/services/calculate_from_strategy.py,b/0/b08d77fca0cf553e3265b62d7088a06ce9c51322
+S
+#src/algorthisms/simulated_anneal.py,e/9/e9304ac4eb226a3e03d275a1b298686e962692cb

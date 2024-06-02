@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f96045c6-a02d-496c-8897-3e71aa8f5d81" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/BackTesting.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/fee_from_strategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/483c2ccaf8e04612d4d0798af2ad61df963443df" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/483c2ccaf8e04612d4d0798af2ad61df963443df" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6e4b256b11727a028fd385e4538ff1c8849b43a2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6e4b256b11727a028fd385e4538ff1c8849b43a2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b08d77fca0cf553e3265b62d7088a06ce9c51322" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b08d77fca0cf553e3265b62d7088a06ce9c51322" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d1a7263fc38a6779482c06cdc0d4654c6182bffc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d1a7263fc38a6779482c06cdc0d4654c6182bffc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ffda79b064c0f3b0ff203b0b5756ada9eeb0c5b0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ffda79b064c0f3b0ff203b0b5756ada9eeb0c5b0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorthisms/genetic_algorithms.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorthisms/genetic_algorithms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/backtest.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/backtest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/calculate_from_strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/calculate_from_strategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/fee_from_strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/fee_from_strategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/sqrt_price_math.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/sqrt_price_math.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,22 +39,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.backtest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.genetic_algorithms.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.gradient_descent.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.strategy_backtest.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.timestamp_convert.executor&quot;: &quot;Run&quot;,
-    &quot;Python.uni_pool_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.wallets.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/hang/PycharmProjects/BackTesting/src/artifacts/abis&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.backtest.executor": "Run",
+    "Python.fee_from_strategy.executor": "Debug",
+    "Python.genetic_algorithms.executor": "Debug",
+    "Python.gradient_descent.executor": "Run",
+    "Python.main.executor": "Debug",
+    "Python.sqrt_price_math.executor": "Run",
+    "Python.strategy_backtest.executor": "Debug",
+    "Python.test.executor": "Run",
+    "Python.timestamp_convert.executor": "Run",
+    "Python.uni_pool_data.executor": "Run",
+    "Python.wallets.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/hang/PycharmProjects/BackTesting/src/artifacts/abis"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/artifacts/abis" />
@@ -152,7 +160,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="uni_pool_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sqrt_price_math" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BackTesting" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,11 +169,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/crawlers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/utils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/crawlers/uni_pool_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/utils/sqrt_price_math.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,17 +185,17 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.gradient_descent" />
         <item itemvalue="Python.fee_from_strategy" />
+        <item itemvalue="Python.sqrt_price_math" />
+        <item itemvalue="Python.gradient_descent" />
         <item itemvalue="Python.genetic_algorithms" />
-        <item itemvalue="Python.uni_pool_data" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+        <option value="bundled-python-sdk-48aec45f0201-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17011.127" />
       </set>
     </attachedChunks>
   </component>
@@ -230,6 +238,16 @@
           <url>file://$PROJECT_DIR$/src/services/calculate_from_strategy.py</url>
           <line>26</line>
           <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/services/fee_from_strategy.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorthisms/simulated_anneal.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="159" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

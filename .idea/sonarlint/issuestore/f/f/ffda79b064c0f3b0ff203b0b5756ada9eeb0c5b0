@@ -1,6 +1,4 @@
 
-=python:S125-"Remove this commented out code.(Ù¾Ó­8µĞºÑù1
-bpython:S6711?"DUse a "numpy.random.Generator" here instead of this legacy function.(ÊË¯28¸ĞºÑù1
-Cpython:S125”"Remove this commented out code.(£â’„ÿÿÿÿÿ8ºĞºÑù1
->python:S125À"Remove this commented out code.(Ò½ÑÚ8ÍĞºÑù1
->python:S125Ë"Remove this commented out code.(ËŸÙÔ8ÍĞºÑù1
+hpython:S67118"DUse a "numpy.random.Generator" here instead of this legacy function.(Ø¹ıŒşÿÿÿÿ8²ÏØÍı1
+cpython:S6711<"DUse a "numpy.random.Generator" here instead of this legacy function.(Éıûª8³ÏØÍı1
+>python:S125²"Remove this commented out code.(ËŸÙÔ8³ÏØÍı1

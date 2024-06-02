@@ -54,7 +54,7 @@ def liquidity_for_strategy(price, min_range, max_range, amount0, amount1, decima
         return amount1 / ((s_high - s_low) / 2 ** 96 / 10 ** decimals1)
 
 
-def calc_fees(data, pool, liquidity,min_range, max_range):
+def calc_fees(data, pool, liquidity, min_range, max_range):
     result = []
 
     for i, d in enumerate(data):
@@ -119,7 +119,7 @@ def calc_fees(data, pool, liquidity,min_range, max_range):
     return result
 
 
-def pivot_fee_data(data):
+def pivot_fee_data(amount0, amount1, data):
     def create_pivot_record(date, data):
         return {
             "date": f"{date.month}/{date.day}/{date.year}",
@@ -178,10 +178,22 @@ def pivot_fee_data(data):
                 # current_price_tick["percFee"] = (current_price_tick["feeV"] / current_price_tick["amountV"]) * 100 if \
                 # current_price_tick["amountV"] > 0 else 0
                 pivot.append(create_pivot_record(current_date, d))
-    invest_change = (pivot[-1]['amountV'] - 1000) * float(data[-1]['pool']['totalValueLockedUSD']) / (
-                float(data[-1]['pool']['totalValueLockedToken1']) * float(data[-1]['close'])
-                + float(data[-1]['pool']['totalValueLockedToken0']))
-    return total_fee, invest_change, ave_active
+
+    token_price = (float(data[-1]['pool']['totalValueLockedUSD'])
+                   / (float(data[-1]['pool']['totalValueLockedToken1']) * float(data[-1]['close'])
+                      + float(data[-1]['pool']['totalValueLockedToken0'])))
+    x = data[::-1]
+    price_rate = float(data[-1]['close'])
+    ref_invest = (amount0 * price_rate + amount1) * token_price
+    invest_change = (pivot[-1]['amountV'] - ref_invest) * token_price
+    apr = (total_fee + invest_change) / ref_invest / 30 * 365
+    return {
+        'apr': apr,
+        'timeInRange': ave_active,
+        'refInvest': ref_invest,
+        'currentInvest': pivot[-1]['amountV'],
+        'fee': total_fee
+    }
 
 
 def calc_unbounded_fees_per_unit(global_fee0, pre_global_fee0, global_fee1, pre_global_fee1, pool):
